@@ -26,7 +26,7 @@ Modu³ perla Data-DRef.
 
 %build
 perl Makefile.PL
-make
+%{__make}
 
 %install
 rm -rf $RPM_BUILD_ROOT
