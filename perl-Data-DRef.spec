@@ -9,7 +9,7 @@ Summary:	Data::DRef - delimited-key access to complex data structures
 Summary(pl):	Data::DRef - dostêp do z³o¿onych struktur danych w formie rozgraniczonej kluczami
 Name:		perl-Data-DRef
 Version:	1999.0206
-Release:	9
+Release:	10
 License:	Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
