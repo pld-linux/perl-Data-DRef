@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Data
 %define	pnam	DRef
-Summary:	Data-DRef perl module
-Summary(pl):	Modu³ perla Data-DRef
+Summary:	Data::DRef perl module
+Summary(pl):	Modu³ perla Data::DRef
 Name:		perl-Data-DRef
 Version:	1999.0206
 Release:	8
@@ -16,10 +16,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Data-DRef - Delimited-key access to complex data structures.
+Data::DRef - Delimited-key access to complex data structures.
 
 %description -l pl
-Modu³ perla Data-DRef.
+Modu³ perla Data::DRef.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
