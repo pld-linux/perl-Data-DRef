@@ -3,7 +3,7 @@ Summary:	Data-DRef perl module
 Summary(pl):	Modu³ perla Data-DRef
 Name:		perl-Data-DRef
 Version:	1999.0206
-Release:	4
+Release:	5
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
