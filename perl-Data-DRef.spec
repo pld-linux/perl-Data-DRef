@@ -1,12 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	Data
 %define	pnam	DRef
-%include	/usr/lib/rpm/macros.perl
 Summary:	Data-DRef perl module
 Summary(pl):	Modu³ perla Data-DRef
 Name:		perl-Data-DRef
 Version:	1999.0206
-Release:	7
-
+Release:	8
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -23,7 +22,7 @@ Data-DRef - Delimited-key access to complex data structures.
 Modu³ perla Data-DRef.
 
 %prep
-%setup -q -n Data-DRef-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL
