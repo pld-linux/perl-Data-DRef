@@ -28,7 +28,7 @@ into various classes, containing a mix of simple scalar values and
 references to other items in the structure.
 
 %description -l pl
-Modu³ perla Data::DRef udostêpnia op³ywowy interfejs dostêpu do
+Modu³ Perla Data::DRef udostêpnia op³ywowy interfejs dostêpu do
 warto¶ci w zagnie¿d¿onych strukturach danych Perla. Struktury te s± w
 zasadzie sieciami hashy i tablic. Niektóre spo¶ród nich mog± byæ
 przekszta³cone w ró¿ne klasy, zawieraj±ce mieszaninê prostych warto¶ci
