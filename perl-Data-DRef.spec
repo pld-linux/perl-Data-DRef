@@ -3,8 +3,8 @@
 %bcond_without	tests	# Do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Data
-%define	pnam	DRef
+%define		pdir	Data
+%define		pnam	DRef
 Summary:	Data::DRef - delimited-key access to complex data structures
 Summary(pl):	Data::DRef - dostêp do z³o¿onych struktur danych w formie rozgraniczonej kluczami
 Name:		perl-Data-DRef
