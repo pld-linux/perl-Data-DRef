@@ -6,7 +6,7 @@
 %define		pdir	Data
 %define		pnam	DRef
 Summary:	Data::DRef - delimited-key access to complex data structures
-Summary(pl):	Data::DRef - dostêp do z³o¿onych struktur danych w formie rozgraniczonej kluczami
+Summary(pl.UTF-8):   Data::DRef - dostÄ™p do zÅ‚oÅ¼onych struktur danych w formie rozgraniczonej kluczami
 Name:		perl-Data-DRef
 Version:	1999.0206
 Release:	10
@@ -27,12 +27,12 @@ generally networks of hashes and arrays, some of which may be blessed
 into various classes, containing a mix of simple scalar values and
 references to other items in the structure.
 
-%description -l pl
-Modu³ Perla Data::DRef udostêpnia op³ywowy interfejs dostêpu do
-warto¶ci w zagnie¿d¿onych strukturach danych Perla. Struktury te s± w
-zasadzie sieciami hashy i tablic. Niektóre spo¶ród nich mog± byæ
-przekszta³cone w ró¿ne klasy, zawieraj±ce mieszaninê prostych warto¶ci
-skalarnych i odwo³añ do innych sk³adników struktury.
+%description -l pl.UTF-8
+ModuÅ‚ Perla Data::DRef udostÄ™pnia opÅ‚ywowy interfejs dostÄ™pu do
+wartoÅ›ci w zagnieÅ¼dÅ¼onych strukturach danych Perla. Struktury te sÄ… w
+zasadzie sieciami hashy i tablic. NiektÃ³re spoÅ›rÃ³d nich mogÄ… byÄ‡
+przeksztaÅ‚cone w rÃ³Å¼ne klasy, zawierajÄ…ce mieszaninÄ™ prostych wartoÅ›ci
+skalarnych i odwoÅ‚aÅ„ do innych skÅ‚adnikÃ³w struktury.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
