@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# Do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Data
 %define		pnam	DRef
+%include	/usr/lib/rpm/macros.perl
 Summary:	Data::DRef - delimited-key access to complex data structures
 Summary(pl.UTF-8):	Data::DRef - dostęp do złożonych struktur danych w formie rozgraniczonej kluczami
 Name:		perl-Data-DRef
@@ -14,9 +14,10 @@ License:	Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	de5d5b210ab97f95d1da483ba45584b9
-BuildRequires:	rpm-perlprov >= 4.1-13
-BuildRequires:	perl-devel >= 1:5.8.0
+URL:		http://search.cpan.org/dist/Data-DRef/
 BuildRequires:	perl-String-Escape
+BuildRequires:	perl-devel >= 1:5.8.0
+BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
