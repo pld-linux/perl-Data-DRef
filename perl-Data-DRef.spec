@@ -4,7 +4,6 @@
 
 %define		pdir	Data
 %define		pnam	DRef
-%include	/usr/lib/rpm/macros.perl
 Summary:	Data::DRef - delimited-key access to complex data structures
 Summary(pl.UTF-8):	Data::DRef - dostęp do złożonych struktur danych w formie rozgraniczonej kluczami
 Name:		perl-Data-DRef
